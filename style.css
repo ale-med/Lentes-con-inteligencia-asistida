@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    body{
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+
+    /*Header*/
+    header{
+        width: 100%;
+        height: 70px;
+      
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    table {
+        table-layout: fixed;
+        width: 100%;
+        background: #004FF9;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, hsla(221, 100%, 49%, 0.664), #f3ef85);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, hsla(221, 100%, 49%, 0.664), #f3ef85); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-collapse: collapse;
+        border: 3px solid #002e92;
+      }
+      
+      thead th:nth-child(1) {
+        width: 30%;
+      }
+      
+      thead th:nth-child(2) {
+        width: 20%;
+      }
+      
+      thead th:nth-child(3) {
+        width: 15%;
+      }
+      
+      thead th:nth-child(4) {
+        width: 35%;
+      }
+      
+      th, td {
+        padding: 20px;
+        border-bottom: solid 1px #002e92;
+      }
+      .class{
+        background: #004FF9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f3ef85, #004ffaa9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f3ef85, #004ffaa9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+      html {
+        font-family: 'helvetica neue', helvetica, arial, sans-serif;
+         background: #004FF9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, hsla(221, 100%, 49%, 0.664), #f3ef85);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(221, 100%, 49%, 0.664), #f3ef85); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+      
+      thead th, tfoot th {
+        font-family: 'Rock Salt', cursive;
+        
+      }
+      
+      th {
+        letter-spacing: 2px;
+        font-size: 20px;
+      }
+      
+      td {
+        letter-spacing: 1px;
+        font-size: 10px;
+      }
+      
+      tbody td {
+        text-align: center;
+      }
+      
+      tfoot th {
+        text-align: right;
+      }
+      tbody tr:hover{
+        background:#f3ef85 ;
+          }
+
+
+
+
+          @media screen and (max-width: 500px){
+           header{
+                width: 65vw;
+            }
+  
+            .titulo{
+                font-size: 30px;
+            }
+        
+           table{
+                font-size: 30px;
+            }
+        
+        
+            frameset cols{
+                width: 95px;
+            }
+            
+            .agregar-imagen{
+                width: 90%;
+            }
+        
+            .social-media{
+                width: 100%;
+                justify-content: space-evenly;
+            }
+        
+            .social-media-icon{
+                margin-left: 0;
+            }
+        
+            .contact-us{
+                text-align: center;
+                width: 95%;
+                margin-bottom: 40px;
+            }
+            h6{
+                font-size: 19px;
+            }
+        
+            
+        }
+       
+          
+          

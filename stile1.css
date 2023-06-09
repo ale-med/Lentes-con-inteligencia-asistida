@@ -1,0 +1,104 @@
+
+
+h2{
+    font-family: 'Cinzel Decorative', cursive;
+
+
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header .textos-header {
+    display: flex;
+    height: 330px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    }
+    .textos-header{
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        }
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+li{
+    font-size: 20px;
+   
+
+}
+@media screen and (max-width: 800px){
+    .menu-navegacion{
+        width: 50vw;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    .checklist-servicio{
+        width: 80%;
+    }
+
+    .service{
+        margin-bottom: 30px;
+    }
+
+    .img-galeria{
+        width: 45%;
+    }
+    
+    .agregarImagen{
+        width: 80%;
+    }
+
+    
+    .cont-expert{
+        width: 80%;
+    }
+    
+    .footer-content{
+        justify-content: center;
+    }
+
+   
+    
+}
+
+
+@media screen and (max-width: 500px){
+    header{
+        width: 95vw;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+   
+   
+    
+}
